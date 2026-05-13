@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { FaMapMarkedAlt, FaCompass, FaRulerCombined, FaMapSigns, FaMountain, FaGem, FaPhone, FaEnvelope, FaMapMarkerAlt, FaBars, FaTimes, FaFacebook, FaCheckCircle } from 'react-icons/fa'
-import { GiTelescopicBait } from 'react-icons/gi'
+import { GiTelescopicBaton } from 'react-icons/gi'
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -21,7 +21,7 @@ export default function Home() {
     { icon: FaCompass, title: 'Original Survey', description: 'First-time land surveying and documentation' },
     { icon: FaRulerCombined, title: 'Subdivision Survey', description: 'Professional land subdivision and parcel mapping' },
     { icon: FaMapSigns, title: 'Consolidation Survey', description: 'Merging multiple parcels into single property' },
-    { icon: GiTelescopicBait, title: 'Verification Survey', description: 'Property verification and boundary confirmation' },
+    { icon: GiTelescopicBaton, title: 'Verification Survey', description: 'Property verification and boundary confirmation' },
     { icon: FaMountain, title: 'Topographic Survey', description: 'Detailed terrain elevation and contour mapping' },
     { icon: FaGem, title: 'Mineral Survey', description: 'Mineral claims and resource mapping' },
   ]
